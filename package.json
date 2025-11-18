@@ -19,7 +19,7 @@
   "dependencies": {
     "@ui5/logger": "^2.0.1",
     "dotenv": "^8.2.0",
-    "request": "^2.88.0"
+    "node-fetch-cookies": "^2.1.1"
   },
   "devDependencies": {
     "eslint": "^7.19.0",
