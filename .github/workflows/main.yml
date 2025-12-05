@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'package.json'
+      - '.github/workflows/main.yml'
   workflow_dispatch:
 
 permissions:
