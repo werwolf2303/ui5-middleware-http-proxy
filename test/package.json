@@ -1,30 +1,25 @@
 {
-  "name": "ui5-middleware-http-proxy",
-  "version": "2.1.0",
+  "name": "ui5-middleware-http-proxy-test",
+  "version": "0.1.0",
   "description": "custom ui5 middleware extension for proxying http requests",
   "keywords": [
     "ui5",
     "middleware",
     "http",
-    "request",
-    "proxy",
-    "openui5",
-    "tooling"
+    "testing"
   ],
-  "main": "index.js",
   "repository": "https://github.com/werwolf2303/ui5-middleware-http-proxy",
-  "author": "pwasem <pascal.wasem@googlemail.com>",
+  "author": "werwolf2303 <gianlucabeil2303@outlook.de>",
   "contributors": [
     "werwolf2303 <gianlucabeil2303@outlook.de>"
   ],
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@ui5/logger": "^2.0.1",
-    "dotenv": "^8.2.0",
-    "fetch-cookie": "^3.1.0",
-    "node-fetch": "^3.3.2",
-    "tough-cookie": "^6.0.0"
+    "ui5-middleware-http-proxy": "^2.0.0"
+  },
+  "scripts": {
+    "run": "ui5 serve -port 8090"
   },
   "devDependencies": {
     "eslint": "^7.19.0",
